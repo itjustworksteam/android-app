@@ -1,0 +1,5 @@
+os: ubuntu14
+language: android
+script:
+   - echo "sdk.dir=/opt/android-sdk-linux" > local.properties
+   - ./gradlew clean assembleRelease
